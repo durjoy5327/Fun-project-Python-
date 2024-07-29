@@ -3,7 +3,7 @@ import turtle
 import numpy as np
 from matplotlib import pyplot as plt
 import time
-import 
+import os
 
 def find_closest(p, positions):
     if len(positions) > 0:
@@ -24,7 +24,7 @@ def outline(image):
     return th3
 
 # Path to the image file
-image = r'F:\Python-Basic-and-DSA-Python-\DSA With python\image.jpg'
+image = r'F:\Fun Project(Python)\image1.jpg'
 
 # Check if the file exists
 if not os.path.exists(image):

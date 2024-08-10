@@ -24,7 +24,7 @@ def outline(image):
     return th3
 
 # Path to the image file
-image = r'F:\Fun Project(Python)\image.jpg'
+image = r'F:\Fun Project(Python)\Sketch project\image.jpg'
 
 # Check if the file exists
 if not os.path.exists(image):
